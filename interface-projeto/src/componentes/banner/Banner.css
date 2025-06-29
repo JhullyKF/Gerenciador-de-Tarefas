@@ -1,0 +1,59 @@
+
+ /*banner*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.banner {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #4A455B;
+    position: relative;
+}
+
+.banner-logo {
+    height: 60px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.banner-texto {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 16vw;
+    flex-direction: column;
+    align-items: center;
+    color: #DBDBDB;
+}
+
+.banner-texto h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.banner-texto p {
+    margin: 0;
+}
+
+.banner--privado {
+  height: 60px; /* Um banner mais fino */
+  background: #2c2a3a; /* Uma cor de fundo diferente para a área logada */
+  display: flex;
+  justify-content: flex-end; /* Alinha o botão à direita */
+  align-items: center;
+}
+.logout-button {
+  color: white;
+  border: 0 1px solid black;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
