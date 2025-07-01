@@ -1,0 +1,13 @@
+# Pasta de build do Java/Maven
+/target/
+
+# Pastas e arquivos de dependências do Node.js
+/node_modules/
+/dist/
+
+# Arquivos do IntelliJ IDEA
+.idea/
+
+# Arquivos de log e do sistema
+npm-debug.log
+*.log

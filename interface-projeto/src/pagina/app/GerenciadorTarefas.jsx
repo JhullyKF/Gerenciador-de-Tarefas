@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import api from '../../services/api.js';
-import Banner from '../../componentes/Banner/Banner.jsx';
+import api from '../../service/api.js';
+import Banner from '../../componentes/banner/Banner.jsx';
 
-const GerenciadorTarefas = () => {
+function GerenciadorTarefas(){
     const navigate = useNavigate();
     const handleLogout = () => {
         localStorage.removeItem('token');

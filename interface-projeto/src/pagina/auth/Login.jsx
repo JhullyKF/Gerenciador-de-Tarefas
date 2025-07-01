@@ -26,7 +26,7 @@ function Login(){
             const {token} = response.data;
             localStorage.setItem('token', token);
             api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-            navigate('/gerenciadorTafefas');
+            navigate('/gerenciadorTarefas');
         } catch (err) {
             setError('Usuário ou senha inválidos');
         }
